@@ -134,4 +134,21 @@ When you see:
 - “Triplets that sum to zero”
 - “Closest sum”
 
-👉 Think:
+👉 Think: Sort+two Points
+
+---
+
+# 🚀 PRACTICE ORDER
+
+1. 167  
+2. 11  
+3. 15 ⭐  
+4. 16  
+5. 42  
+
+---
+
+# ⚡ FINAL INSIGHT
+
+> Opposite Two Pointers =  
+> “Shrink search space using sorted order”
