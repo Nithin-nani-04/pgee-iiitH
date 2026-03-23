@@ -329,7 +329,115 @@ Combine this with:
 
 
 
+# 🚀 Two Pointer Techniques — Types
 
+Two Pointer is a technique used to **reduce time complexity** by using two indices instead of nested loops.
+
+---
+
+# 🟢 1. Opposite Direction (Two Ends)
+
+## 📌 Structure:
+- One pointer at start
+- One pointer at end
+
+## 🎯 Use When:
+- Array is **sorted**
+- Pair / sum problems
+
+## 🧠 Idea:
+> Use order to eliminate possibilities
+
+---
+
+# 🟡 2. Sliding Window (Same Direction)
+
+## 📌 Structure:
+- Both pointers move forward
+
+## 🎯 Use When:
+- Subarray / substring problems
+- Continuous segments
+- Variable window size
+
+## 🧠 Idea:
+> Expand → violate → shrink
+
+---
+
+# 🔵 3. Fast & Slow Pointer
+
+## 📌 Structure:
+- One pointer moves 1 step
+- One pointer moves 2 steps
+
+## 🎯 Use When:
+- Linked list problems
+- Cycle detection
+- Middle node
+
+## 🧠 Idea:
+> Speed difference reveals hidden structure
+
+---
+
+# 🔴 4. Fixed Window (Same Direction Gap)
+
+## 📌 Structure:
+- Maintain window of size k
+
+## 🎯 Use When:
+- Fixed-size subarray problems
+
+## 🧠 Idea:
+> Slide window, don’t rebuild
+
+---
+
+# 🟣 5. Partitioning (Rearrangement)
+
+## 📌 Structure:
+- One pointer tracks position
+- One pointer scans
+
+## 🎯 Use When:
+- Rearranging elements
+- Sorting-like problems
+
+## 🧠 Idea:
+> Move elements to correct side
+
+---
+
+# ⚫ 6. Multi-Pointer / Advanced Window
+
+## 📌 Structure:
+- Multiple pointers or hashmap
+
+## 🎯 Use When:
+- Complex substring problems
+- Multiple constraints
+
+## 🧠 Idea:
+> Track multiple conditions simultaneously
+
+---
+
+# 🧠 QUICK DECISION GUIDE
+
+| Problem Type | Technique |
+|-------------|----------|
+| Sorted + pair | Opposite pointers |
+| Subarray / substring | Sliding window |
+| Linked list | Fast & slow |
+| Fixed size window | Fixed window |
+| Rearranging array | Partitioning |
+
+---
+
+# ⚡ FINAL INSIGHT
+
+> Two Pointer = Reduce unnecessary work using smart movement
 
 
 
