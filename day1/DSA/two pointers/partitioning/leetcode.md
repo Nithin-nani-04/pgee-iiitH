@@ -11,11 +11,11 @@ The core logic is based on two pointers. One pointer scans the array, and anothe
 Common places where partitioning appears include rearranging arrays in-place, grouping elements based on conditions, solving Dutch National Flag problems, and finding kth largest or smallest elements using QuickSelect. It is widely used in interview problems because it combines efficiency with in-place manipulation.
 
 Some important LeetCode problems to practice this technique are:
-- 283. Move Zeroes  
-- 27. Remove Element  
-- 75. Sort Colors  
-- 2161. Partition Array According to Given Pivot  
-- 215. Kth Largest Element in an Array  
+ 283. Move Zeroes  
+ 27. Remove Element  
+ 75. Sort Colors  
+ 2161. Partition Array According to Given Pivot  
+ 215. Kth Largest Element in an Array  
 
 While using partitioning, common mistakes include incorrect swapping, moving pointers in the wrong order, and forgetting that some swapped elements need to be rechecked. The biggest conceptual mistake is trying to sort the entire array when only grouping is required.
 
@@ -30,10 +30,10 @@ This list covers the **most important problems** where partitioning is used dire
 
 # 🟢 BASIC (Must Start Here)
 
-- 283. Move Zeroes ⭐  
-- 27. Remove Element  
-- 905. Sort Array By Parity  
-- 922. Sort Array By Parity II  
+ 283. Move Zeroes ⭐  
+ 27. Remove Element  
+ 905. Sort Array By Parity  
+ 922. Sort Array By Parity II  
 
 👉 Focus:
 - Basic swapping
@@ -43,51 +43,51 @@ This list covers the **most important problems** where partitioning is used dire
 
 # 🟡 INTERMEDIATE (Core Understanding)
 
-- 75. Sort Colors ⭐ (Dutch National Flag)  
-- 2161. Partition Array According to Given Pivot ⭐  
-- 88. Merge Sorted Array (in-place idea)  
-- 977. Squares of a Sorted Array  
+ 75. Sort Colors ⭐ (Dutch National Flag)  
+ 2161. Partition Array According to Given Pivot ⭐  
+ 88. Merge Sorted Array (in-place idea)  
+ 977. Squares of a Sorted Array  
 
 👉 Focus:
-- Multi-pointer partition
-- Zone-based thinking
+ Multi-pointer partition
+ Zone-based thinking
 
 ---
 
 # 🔵 PARTITION + SELECTION
 
-- 215. Kth Largest Element in an Array ⭐  
-- 347. Top K Frequent Elements  
-- 973. K Closest Points to Origin  
+ 215. Kth Largest Element in an Array ⭐  
+ 347. Top K Frequent Elements  
+ 973. K Closest Points to Origin  
 
 👉 Focus:
-- QuickSelect
-- Partition with pivot
+ QuickSelect
+ Partition with pivot
 
 ---
 
 # 🔴 ADVANCED / INTERVIEW LEVEL
 
-- 324. Wiggle Sort II  
-- 280. Wiggle Sort  
-- 406. Queue Reconstruction by Height  
-- 870. Advantage Shuffle  
+ 324. Wiggle Sort II  
+ 280. Wiggle Sort  
+ 406. Queue Reconstruction by Height  
+ 870. Advantage Shuffle  
 
 👉 Focus:
-- Rearrangement logic
-- Pattern recognition
+ Rearrangement logic
+ Pattern recognition
 
 ---
 
 # ⚫ HYBRID (Partition + Other Techniques)
 
-- 11. Container With Most Water  
-- 42. Trapping Rain Water  
-- 15. 3Sum ⭐  
-- 16. 3Sum Closest  
+ 11. Container With Most Water  
+ 42. Trapping Rain Water  
+ 15. 3Sum ⭐  
+ 16. 3Sum Closest  
 
 👉 Focus:
-- Partition thinking + two pointers
+ Partition thinking + two pointers
 
 ---
 
